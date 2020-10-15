@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_alignParentTop="true"
+        android:gravity="end|center_vertical"
+        app:autoSizeMaxTextSize="160sp"
+        app:autoSizeMinTextSize="40sp"
+        app:autoSizeStepGranularity="4sp"
+        app:autoSizeTextType="uniform"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="100%" />
+
+    <Button
+        android:id="@+id/Clear"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/opClear"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/num0"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/Clear"
+        android:gravity="center"
+        android:text="@string/num0"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/Equals"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/num0"
+        android:gravity="center"
+        android:text="@string/opEquals"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/Divide"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/Equals"
+        android:gravity="center"
+        android:text="@string/opDivide"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/num7"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_above="@id/num0"
+        android:gravity="center"
+        android:text="@string/num7"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/num8"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_above="@id/num0"
+        android:layout_toEndOf="@id/num7"
+        android:gravity="center"
+        android:text="@string/num8"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/num9"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_above="@id/num0"
+        android:layout_toEndOf="@id/num8"
+        android:gravity="center"
+        android:text="@string/num9"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/multiply"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_above="@id/num0"
+        android:layout_toEndOf="@id/num9"
+        android:gravity="center"
+        android:text="@string/opMultiply"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/num4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_above="@id/num7"
+        android:gravity="center"
+        android:text="@string/num4"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/num5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_above="@id/num7"
+        android:layout_toEndOf="@id/num4"
+        android:gravity="center"
+        android:text="@string/num5"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/num6"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_above="@id/num7"
+        android:layout_toEndOf="@id/num5"
+        android:gravity="center"
+        android:text="@string/num6"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/minus"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_above="@id/num7"
+        android:layout_toEndOf="@id/num6"
+        android:gravity="center"
+        android:text="@string/opMinus"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/num1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/num4"
+        android:gravity="center"
+        android:text="@string/num1"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/num2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_above="@id/num4"
+        android:layout_toEndOf="@id/num1"
+        android:gravity="center"
+        android:text="@string/num2"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/num3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_above="@id/num4"
+        android:layout_toEndOf="@id/num2"
+        android:gravity="center"
+        android:text="@string/num3"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/add"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_above="@id/num4"
+        android:layout_toEndOf="@id/num3"
+        android:gravity="center"
+        android:text="@string/opAdd"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+    <Button
+        android:id="@+id/power"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/num1"
+        android:gravity="center"
+        android:text="@string/power"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="50%" />
+    <Button
+        android:id="@+id/sqrt"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/num1"
+        android:layout_toEndOf="@id/power"
+        android:gravity="center"
+        android:text="@string/sqrt"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="50%" />
+</android.support.percent.PercentRelativeLayout>

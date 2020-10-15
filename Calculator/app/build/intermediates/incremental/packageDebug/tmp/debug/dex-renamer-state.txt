@@ -1,0 +1,4 @@
+#Sun May 17 13:33:52 CST 2020
+base.0=D\:\\AndroidAPP_3.6\\Calculator\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,5 @@
+# Calculator
+EasyCalculator为基于Rhino利用JavaScript解析实现安卓有页面设计的高级多则运算计算器。
+1.使用xml静态布局，引入PercentRelativeLayout布局格式利用百分比形式使得页面美观，并匹配所有的屏幕大小
+2.引入rhion数据分析库，利用JavaScript进行解析
+3.在算法上支持普通的加减乘除和开多次方和高次方计算，支持多则运算，但缺陷为只是普通的计算器，没有高级计算器功能

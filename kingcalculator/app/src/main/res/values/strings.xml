@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">King Calculator</string>
+    <string name="AC">AC</string>
+    <string name="C">C</string>
+    <string name="mod">%</string>
+    <string name="equal">=</string>
+    <string name="add">+</string>
+    <string name="dec">-</string>
+    <string name="multi">×</string>
+    <string name="div">÷</string>
+    <string name="dot">.</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string-array name="titles">
+        <item>Standard calculator</item>
+        <item>Scientific calculator</item>
+    </string-array>
+    <string name="pai">π</string>
+    <string name="fact">x!</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="square">x²</string>
+    <string name="cube">x³</string>
+    <string name="radicals">2√x</string>
+    <string name="cube_roots">3√x</string>
+    <string name="factorial">x!</string>
+    <string name="power">xⁿ</string>
+    <string name="easy">Standard calculator</string>
+    <string name="scientific">Scientific calculator</string>
+
+</resources>

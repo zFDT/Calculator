@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000">
+    <TextView
+        android:id="@+id/text"
+        android:layout_alignParentTop="true"
+        android:gravity="end|center_vertical"
+        app:autoSizeMaxTextSize="40sp"
+        app:autoSizeMinTextSize="10sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="100%"
+        android:textColor="#FFFFFF"/>
+
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_above="@+id/AC"
+        android:gravity="end|center_vertical"
+        app:autoSizeMaxTextSize="80sp"
+        app:autoSizeMinTextSize="20sp"
+        app:autoSizeStepGranularity="4sp"
+        app:autoSizeTextType="uniform"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="100%"
+        android:textColor="#FFFFFF"/>
+
+
+
+    <Button
+        android:id="@+id/sin"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/sin"
+        android:background="#8F8C89"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+    <Button
+        android:id="@+id/square"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/sin"
+        android:gravity="center"
+        android:text="@string/square"
+        android:background="#8F8C89"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+
+    <Button
+        android:id="@+id/zero"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/square"
+        android:gravity="center"
+        android:text="@string/zero"
+
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="33.2%" />
+
+    <Button
+        android:id="@+id/dot"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/zero"
+        android:gravity="center"
+        android:text="@string/dot"
+        android:typeface="sans"
+
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+
+    <Button
+        android:id="@+id/equal"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/dot"
+        android:gravity="center"
+        android:text="@string/equal"
+        android:background="#FF9800"
+        android:textColor="#FFFFFF"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+
+    <Button
+        android:id="@+id/cos"
+        android:layout_above="@id/zero"
+        android:gravity="center"
+        android:text="@string/cos"
+        android:typeface="sans"
+        android:background="#8F8C89"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+
+    <Button
+        android:id="@+id/cube"
+        android:layout_above="@id/zero"
+        android:layout_toEndOf="@id/cos"
+        android:gravity="center"
+        android:text="@string/cube"
+        android:background="#8F8C89"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+
+
+
+    <Button
+        android:id="@+id/one"
+        android:layout_above="@id/zero"
+        android:layout_toEndOf="@id/cube"
+        android:gravity="center"
+        android:text="@string/one"
+        android:typeface="sans"
+
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+
+    <Button
+        android:id="@+id/two"
+        android:layout_above="@id/zero"
+        android:layout_toEndOf="@id/one"
+        android:gravity="center"
+        android:text="@string/two"
+
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%"  />
+
+    <Button
+        android:id="@+id/three"
+        android:layout_above="@id/dot"
+        android:layout_toEndOf="@id/two"
+        android:gravity="center"
+        android:text="@string/three"
+
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_above="@id/equal"
+        android:layout_toEndOf="@id/three"
+        android:gravity="center"
+        android:text="@string/add"
+        android:background="#FF9800"
+        android:textColor="#FFFFFF"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+    <Button
+        android:id="@+id/tan"
+        android:layout_above="@id/one"
+        android:gravity="center"
+        android:text="@string/tan"
+        android:background="#8F8C89"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%"  />
+
+    <Button
+        android:id="@+id/power"
+        android:layout_above="@id/one"
+        android:layout_toEndOf="@id/tan"
+        android:gravity="center"
+        android:text="@string/power"
+        android:background="#8F8C89"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%"  />
+    <Button
+        android:id="@+id/four"
+        android:layout_above="@id/one"
+        android:layout_toEndOf="@id/power"
+        android:gravity="center"
+        android:text="@string/four"
+
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%"  />
+    <Button
+        android:id="@+id/five"
+        android:layout_above="@id/two"
+        android:layout_toEndOf="@id/four"
+        android:gravity="center"
+        android:text="@string/five"
+
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%"  />
+
+    <Button
+        android:id="@+id/six"
+        android:layout_above="@id/three"
+        android:layout_toEndOf="@id/five"
+        android:gravity="center"
+        android:text="@string/six"
+
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%"  />
+
+    <Button
+        android:id="@+id/dec"
+        android:layout_above="@id/add"
+        android:layout_toEndOf="@id/six"
+        android:gravity="center"
+        android:text="@string/dec"
+        android:background="#FF9800"
+        android:textColor="#FFFFFF"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+    <Button
+        android:id="@+id/pai"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_above="@id/four"
+        android:gravity="center"
+        android:text="@string/pai"
+        android:background="#8F8C89"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+    <Button
+        android:id="@+id/radicals"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_above="@id/four"
+        android:layout_toEndOf="@id/pai"
+        android:gravity="center"
+        android:text="@string/radicals"
+        android:background="#8F8C89"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%"  />
+
+    <Button
+        android:id="@+id/seven"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_above="@id/four"
+        android:layout_toEndOf="@id/radicals"
+        android:gravity="center"
+        android:text="@string/seven"
+
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+
+    <Button
+        android:id="@+id/eight"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:layout_above="@id/five"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@id/seven"
+        android:gravity="center"
+        android:text="@string/eight"
+
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+
+    <Button
+        android:id="@+id/nine"
+        android:layout_above="@+id/six"
+        android:layout_toEndOf="@id/eight"
+        android:gravity="center"
+        android:text="@string/nine"
+
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+
+    <Button
+        android:id="@+id/multi"
+        android:layout_above="@id/dec"
+        android:layout_toEndOf="@id/nine"
+        android:gravity="center"
+        android:text="@string/multi"
+        android:background="#FF9800"
+        android:textColor="#FFFFFF"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+    <Button
+        android:id="@+id/factorial"
+        android:layout_above="@+id/seven"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:text="@string/factorial"
+        android:background="#8F8C89"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+
+    <Button
+        android:id="@+id/cube_roots"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_above="@id/eight"
+        android:layout_toEndOf="@id/factorial"
+        android:gravity="center"
+        android:text="@string/cube_roots"
+        android:background="#8F8C89"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+
+    <Button
+        android:id="@+id/AC"
+        android:layout_above="@+id/seven"
+        android:layout_toEndOf="@id/cube_roots"
+        android:gravity="center"
+        android:text="@string/AC"
+        android:background="#8F8C89"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+
+
+    <Button
+        android:id="@+id/C"
+        android:layout_above="@id/eight"
+        android:layout_toEndOf="@id/AC"
+        android:gravity="center"
+        android:text="@string/C"
+        android:background="#8F8C89"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+
+
+    <Button
+        android:id="@+id/mod"
+        android:layout_above="@id/nine"
+        android:layout_toEndOf="@id/C"
+        android:gravity="center"
+        android:text="@string/mod"
+        android:background="#8F8C89"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_above="@id/multi"
+        android:layout_toEndOf="@id/mod"
+        android:gravity="center"
+        android:text="@string/div"
+        android:background="#FF9800"
+        android:textColor="#FFFFFF"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="16.6%" />
+
+
+
+</android.support.percent.PercentRelativeLayout>

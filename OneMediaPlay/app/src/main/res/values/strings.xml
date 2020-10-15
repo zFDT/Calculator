@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">One Media Play</string>
+    <string name="tab_text_1">MUSIC PLAY</string>
+    <string name="tab_text_2">VIDEO PLAY</string>
+    <string name="tab_text_3">FILE LIST</string>
+    <!-- TODO: Remove or changeFILE LIST this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
